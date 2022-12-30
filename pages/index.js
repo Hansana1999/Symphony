@@ -1,7 +1,8 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import Navbar from './Components/Navbar/Navbar'
-import { HomePage } from './Components/home/home-page'
+import HomePage from './Components/Home/HomePage'
+import Footer from './Components/Footer'
 
 export default function Home() {
   return (
@@ -11,7 +12,9 @@ export default function Home() {
       <title>Symphony</title>
     </Head>
     <Navbar/>
-    <h1>home page</h1>
+    <HomePage/>
+    <Footer/>
+    
     
    </div>
   )
