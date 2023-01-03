@@ -17,7 +17,7 @@ function AboutUs (){
        
       <div className={cx(styles["form-about"],"text-center","mt-5")}>
         <div className="mklp" >
-          <br></br><br></br><h1 className={styles.text}>About Symphony</h1><br></br>
+          <h1 className={styles.text}>About Symphony</h1><br/>
             <img className={styles.image} src='/images/aboutus.jpg' />
         </div>
 

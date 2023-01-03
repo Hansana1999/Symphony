@@ -238,14 +238,22 @@
 }
 
 .navbar-logo {
-  color: rgb(255, 255, 255);
+  color: rgba(230, 229, 229, 0.893);
   justify-self: start;
   margin-left: 50px;
   cursor: pointer;
   text-decoration: none;
-  font-size: 2rem;
+  font-size:3rem;
   display: flex;
   align-items: center;
+ 
+}
+
+.navbar-logo:hover{
+  color: #ffffff;
+  transition:all;
+  transform: rotate3d(1, 0, 0, 60deg);
+  
 }
 
 .fa-typo3 {
@@ -294,6 +302,21 @@
   display: none;
 }
 
+.nav-sbtn{
+  color:#b5b6b9;
+  background-color: #000;
+  border-color: #f3f5f9;
+  height: 70%;
+  margin-top: 7px;
+  padding: 5px;
+  border-radius: 0.5ch;
+}
+
+.nav-sbtn:hover{
+  color: rgb(250, 250, 252);
+  transition: all ease-in-out;
+}
+
 @media screen and (max-width: 960px) {
   .NavbarItems {
     position: relative;
@@ -331,6 +354,8 @@
     color: #ffffff;
     border-radius: 0;
   }
+
+ 
 
   .navbar-logo {
     position: absolute;
@@ -528,8 +553,6 @@
 
 @media screen and (max-width: 768px) {
 }
-
-
 
 
 

@@ -7,13 +7,17 @@
 .category1 {
   margin-top: 50px;
   margin-bottom: -10px;
+  
 }
-.category1 img {
+.category1:hover{
+  transform: rotate3d(0, 0, 1, 20deg);
+}
+/* .category1 img {
   width: 100px;
   height: 100px;
   margin-top: 10px;
   object-fit: contain;
-}
+} */
 .category1 img {
   width: 60px;
   height: 60px;

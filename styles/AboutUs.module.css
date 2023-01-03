@@ -4,9 +4,7 @@
 
 .text{
     text-align: center;
-    font-weight: bold;
-    font-size: 2rem;
-    font-family:cursive;
+    font-style: bold;
 }
 
 .image{
@@ -23,25 +21,27 @@
 .box1{
    width: 500px;
    height: 400px;
-   padding: 2rem;
+   padding: 1rem;
    position: absolute;
    bottom: -150px;
    left: 250px;
-   top:550px;
+   top:540px;
+   margin-bottom: 2px;
 }
 
 .box2{
    width:500px;
    height:400px;
    position: absolute;
-   padding: 2rem;
+   padding: 1rem;
    bottom: -150px;
    right: 200px;
-   top:550px;
+   top:540px;
  }
 
  .p1{
-    font-family: cursive;
+    font-family:monospace;
+    align-items: center;
  }
 
  .aboutfooter{

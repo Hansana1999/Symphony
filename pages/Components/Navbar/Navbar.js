@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from 'react';
 import Link from 'next/link'
-import { Button } from './Button';
 
 
 function Navbar() {
@@ -16,7 +15,7 @@ function Navbar() {
     <>
       <nav className='navbar'>
         <div className='navbar-container'>
-          <Link href="/" className='navbar-logo' >
+          <Link href="/" className='navbar-logo && navbar-logo:hover' >
             Symphony
             <i class='fab fa-typo3' />
           </Link>
@@ -60,12 +59,13 @@ function Navbar() {
               </Link>
             </li>
             <li className='nav-item'>
-              <Link 
+              {/* <Link 
                 href="/Components/share-item"
                 className='nav-links' 
                 >
                 Share Your Item
-              </Link>
+              </Link> */}
+              <a href="/Components/share-item"><button className='nav-sbtn && nav-sbtn:hover'  >Share Your Item</button></a>
             </li>
           </ul>
           <li>

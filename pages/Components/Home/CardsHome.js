@@ -14,7 +14,7 @@ const Wrapper = () => {
     {
       cateImg: "/images/Categories/smartphone (2).png",
       title: "Electronics",
-      path:"./ElectronicDevices",
+      path:"/ElectronicDevices/ElectronicDevices",
     },
     {
       cateImg: "/images/Categories/house.png",
