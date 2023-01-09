@@ -1,0 +1,25 @@
+.bg1 {
+    position: relative;
+    text-align: center;
+    padding: auto;
+    }
+
+.text1{
+    font-style: bold;
+    text-align: center;
+    margin-top: 10px;
+}
+
+ .image{
+    padding-top: 20px;
+    padding-bottom: 30px;
+    height: 35%;
+    width: 35%;
+ }
+
+ 
+.wbackground {
+    background: white;
+    padding: 0 80px 20px 80px;
+    align-items: center;
+  }

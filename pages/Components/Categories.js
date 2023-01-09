@@ -6,62 +6,62 @@ import cx from 'classnames';
 const Categories = () => {
   const data = [
     {
-      path:"/Vehicalparts",
+      path:"/Components/Vehicalparts/Vehicalparts",
       cateImg: "/images/Category/car.png",
       cateName: "VEHICAL PARTS",
     },
     {
-      path:"/ElectronicDevices/ElectronicDevices",
+      path:"/Components/ElectronicDevices/ElectronicDevices",
       cateImg: "/images/Category/smartphone (2).png",
       cateName: "ELECTRONICS",
     },
     {
-      path:"/HomeGarden",
+      path:"/Components/HomeGarden/HomeGarden",
       cateImg: "/images/Category/house.png",
       cateName: "HOME & GARDEN",
     }, 
     {
-      path:"Animals",
+      path:"/Components/Animals/Animals",
       cateImg: "/images/Category/cat.png",
       cateName: "PETS",
     },
     {
-      path:"/Toys",
+      path:"/Components/Toys/Toys",
       cateImg: "/images/Category/toys.png",
       cateName: "TOYS",
     },
     {
-      path:"/HobbySport",
+      path:"/Components/HobbySport/HobbySport",
       cateImg: "/images/Category/sports.png",
       cateName: "HOBBY & SPORT",
     },
     {
-      path:"/Foods",
+      path:"/Components/Foods/Foods",
       cateImg: "/images/Category/burger.png",
       cateName: "FOODS",
     },
     {
-      path:"/Education",
+      path:"/Components/Education/Education",
       cateImg: "/images/Category/education.png",
       cateName: "EDUCATION",
     },
     {
-      path:"/Essentials",
+      path:"/Components/Essentials/Essentials",
       cateImg: "/images/Category/essential-oil.png",
       cateName: "ESSENTIALS",          
     },
     {
-      path:"/FashionBeauty",
+      path:"/Components/FashionBeauty/FashionBeauty",
       cateImg: "/images/Category/dress.png",
       cateName: "FASHION",
     },
     {
-      path:"/Gifts",
+      path:"/Components/Gifts/Gifts",
       cateImg: "/images/Category/giftbox.png",
       cateName: "GIFTS",
     },
     {
-      path:"/Music",
+      path:"/Components/Music/Music",
       cateImg: "/images/Category/guitar.png",
       cateName: "MUSIC",
     },
@@ -69,11 +69,11 @@ const Categories = () => {
 
   return (
     <>
-      <div className={cx(styles["category"],)}>
+      <div className={styles.category}>
         {data.map((value, index) => {
           return (
-            <Link href={value.path} className={cx(styles["abc"],)}>
-              <div className={cx(styles["box"],)} key={index}>
+            <Link href ={value.path} className={styles.abc}>
+              <div className={styles.box1} key={index}>
                   <img src={value.cateImg} alt='' />
                   <span>{value.cateName}</span>    
               </div>

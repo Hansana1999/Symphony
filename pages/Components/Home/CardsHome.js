@@ -9,62 +9,62 @@ const Wrapper = () => {
     {
       cateImg: "/images/Categories/car.png",
       title: "Vehical Parts",
-      path:"./Vehicalparts",
+      path:"/Components/Vehicalparts/Vehicalparts",
     },
     {
       cateImg: "/images/Categories/smartphone (2).png",
       title: "Electronics",
-      path:"/ElectronicDevices/ElectronicDevices",
+      path:"/Components/ElectronicDevices/ElectronicDevices",
     },
     {
       cateImg: "/images/Categories/house.png",
       title: "Home & Garden",
-      path:"./HomeGarden",
+      path:"/Components/HomeGarden/HomeGarden",
     },
     {
       cateImg: "/images/Categories/cat.png",
       title: "Pets",
-      path:"./Animals",
+      path:"/Components/Animals/Animals",
     },
     {
       cateImg: "/images/Categories/toys.png",
       title: "Toys",
-      path:"/Toys",
+      path:"/Components/Toys/Toys",
     },
     {
       cateImg: "/images/Categories/sports.png",
       title: "Hobby & Sport",
-      path:"./HobbySport",
+      path:"/Components/HobbySport/HobbySport",
     },
     {
       cateImg: "/images/Categories/burger.png",
       title: "Food",
-      path:"./Foods",
+      path:"/Components/Foods/Foods",
     },
     {
       cateImg: "/images/Categories/education.png",
       title: "Education",
-      path:"./Education",
+      path:"/Components/Education/Education",
     },
     {
       cateImg: "/images/Categories/essential-oil.png",
       title: "Essentials",
-      path:"./Essentials",
+      path:"/Components/Essentials/Essentials",
     },
     {
       cateImg: "/images/Categories/dress.png",
       title: "Fashion & Beauty",
-      path:"./FashionBeauty",
+      path:"/Components/FashionBeauty/FashionBeauty",
     },
     {
       cateImg: "/images/Categories/giftbox.png",
       title: "Gifts",
-      path:"./Gifts",
+      path:"/Components/Gifts/Gifts",
     },
     {
       cateImg: "/images/Categories/guitar.png",
       title: "Music",
-      path:"./Music",
+      path:"/Components/Music/Music",
     },
   ]
   return (

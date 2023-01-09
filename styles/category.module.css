@@ -1,0 +1,37 @@
+.category {
+    width: 250px;
+    height: 620px;
+    padding: 10px 10px 10px 10px;
+    margin-top: 40px;
+    margin-left: 200px;
+    border-radius: 10px;
+    box-shadow: rgb(3 0 71 / 30%) 0px 1px 3px;
+   
+  }
+.abc {
+    text-decoration: none;
+    color: #000;
+  }
+
+  .box1{
+  display: flex;
+}
+
+.box1:hover {
+    background-color: #cecacb;
+    cursor: pointer;
+    border-radius: 10px;
+  }
+  .category span {
+    margin: 15px;
+    text-transform: capitalize;
+    margin-top: 12px;
+    font-size: 15px;
+  }
+
+  .category img {
+    width: 30px;
+    height: 30px;
+    margin-top: 10px;
+    object-fit: contain;
+  }

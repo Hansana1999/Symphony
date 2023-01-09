@@ -4,6 +4,8 @@ import Sdata from "./Sdata"
 // import "slick-carousel/slick/slick.css"
 // import "slick-carousel/slick/slick-theme.css"
 import Link from "next/link"
+import styles from "/styles/HomeWrapper.module.css"
+import cx from "classnames"
 
 const SlideCard = () => {
   const settings = {
@@ -22,14 +24,14 @@ const SlideCard = () => {
         {Sdata.map((value, index) => {
           return (
             <>
-              <div className='box d_flex top' key={index}>
-                <div className='left'>
-                <h3>Electronics</h3>
+              <div  key={index}>
+                <div >
+                <h3 className={cx(styles["ecleft"],)}>Electronics</h3>
                   <h6>{value.title}</h6>
                   {/* <p>{value.desc}</p> */}
-                  <Link href='/Mobile' className='abc'><button className='btn-primary1'>VISIT COLLECTIONS</button></Link>
+                  <Link href='/Components/ElectronicDevices/Mobile' className='abc'><button className={cx(styles["cbtn"],)}>VISIT COLLECTIONS</button></Link>
                 </div>
-                <div className='right'>
+                <div className={cx(styles["cright"],)}>
                   <img src={value.cover} alt='' />
                 </div>
               </div>
